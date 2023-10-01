@@ -16,3 +16,9 @@ In the preprocessing phase, the dataset underwent a series of strategic transfor
 - The model was trained for only 10 epochs due to time constraints, potentially hindering full model convergence.
 - Model may struggle with longer, more complex job descriptions.
 - Pretrained models may introduce bias from their original training data, affecting generated content fairness and accuracy.
+## System specefications
+- Python version : `3.11.3`
+- System : `Microsoft Windows 11 (64-bit)`
+- Processor : `11th Gen Intel Core(TM) i5 11400H @2700H`
+- GPU : `NVIDIA GeForce GTX 1050`
+- RAM : `16 GB`
