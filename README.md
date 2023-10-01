@@ -2,9 +2,9 @@
 This GitHub repository showcases a project focused on creating a job description generator using state-of-the-art text-to-text models. Leveraging the power of Hugging Face's pre-trained models, specifically `Flan-t5-base` and `Flan-t5-small`. This project aims to automate the process of generating job descriptions based on role-specific information.
 
 ## Dataset
-The dataset, which is accessible at [https://www.kaggle.com/datasets/andrewmvd/data-scientist-jobs/data], comprises a comprehensive collection of over 3900 job listings tailored specifically for data scientist positions. Originally curated by picklesueat, this dataset encompasses a rich array of attributes, including salary estimates, geographical location, company ratings, detailed job descriptions, and more. Its inception was driven by the intention to serve as a foundational resource facilitating projects dedicated to job market analysis and salary prediction.
+The dataset, which is accessible at [https://www.kaggle.com/datasets/andrewmvd/data-scientist-jobs/data], comprises a collection of over 3900 job listings tailored specifically for data scientist positions. Originally created by picklesueat, this dataset encompasses a rich array of attributes, including salary estimates, geographical location, detailed job descriptions, and more. Its inception was to serve as a resource facilitating projects dedicated to job market analysis and salary prediction.
 
-As part of my project, I performed meticulous preprocessing on this dataset to refine it for the specific task of fine-tuning text-to-text models. This preprocessing was essential to ensure that the dataset aligns seamlessly with the model's requirements and objectives.
+As part of my project, I performed preprocessing on this dataset to refine it to ensure that the dataset aligns seamlessly with the task of fine-tuning text-to-text models requirements and objectives.
 
 ## Preprocessing
 In the preprocessing phase, the dataset underwent a series of strategic transformations to make it conducive for training text-to-text models, specifically targeting the task of job description generation. The following key steps were undertaken:
